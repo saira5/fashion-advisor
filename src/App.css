@@ -24,6 +24,36 @@
   color: white;
 }
 
+.heading{
+  color: antiquewhite;
+}
+.profile-setup{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: start;
+  /* margin: auto; */
+ 
+}
+.form-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.profile-setup label {
+  text-align: left;
+  margin: 10px 0;
+  margin-left: 50px;
+  color: antiquewhite;
+}
+.profile-setup button{
+  margin-left: 50px;
+}
+
+.profile-setup input,
+.profile-setup select {
+  margin-left: 10px;
+}
+
 .App-link {
   color: #61dafb;
 }
